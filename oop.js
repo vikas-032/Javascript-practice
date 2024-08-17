@@ -225,13 +225,29 @@
 // };
 
 // Factory Functions
-function createCircle(radius){
-    return{
-    radius,
-    draw: function() {
-     console.log('draw');
-    }
-  }; 
-}
+// function createCircle(radius){
+//     return{
+//     radius,
+//     draw: function() {
+//      console.log('draw');
+//     }
+//   };
+// }
 
-const circle= createCircle(1);
+// const circle= createCircle(1);
+
+// ************** Patterns *****************
+
+// TRIANGLE PATTERN-1
+
+// let rows = 5;
+// let pattern = "";
+
+// for (let n = 1; n<= rows; n++) {
+//   for (let num = 1; num <= n; num++) {
+//     pattern += num;
+//   }
+//   pattern += "\n";
+// }
+
+// console.log(pattern);
