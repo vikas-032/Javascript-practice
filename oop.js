@@ -253,10 +253,3 @@
 // console.log(pattern);
 
 
-// Creating an Array using array literal
-
-let names =[];
-console.log(names);
-
-let courses =['math', 'science','english'];
-console.log(courses)
