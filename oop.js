@@ -252,4 +252,11 @@
 
 // console.log(pattern);
 
+vikas = {
+  name: "vikas kumar",
+  favNum: 5,
+  developer: true,
+};
 
+
+module.exports = vikas;
