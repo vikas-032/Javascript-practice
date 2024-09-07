@@ -44,3 +44,11 @@
 // let num2 =25;
 // let sum = addition(num1,num2);
 // console.log("Addition of two number will be :",sum);
+
+let n = 15;
+for (let i =1; i<=n; i++){
+    let str ="*"
+    let space = ' ';
+    console.log(space.repeat((n-i))+ str.repeat(i));
+    
+}
