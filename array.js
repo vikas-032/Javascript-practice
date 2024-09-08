@@ -41,4 +41,9 @@
 // console.log('hello worlddddd' , harry);
 
 
+ //Array Practise
+
+
+ let a=['2,3,4,7,8']
+ console.log(arr);
  
