@@ -50,8 +50,15 @@
 
 //How to find duplicate element in an array?
 
-const arrNumber=[1,2,4,2,8,8,9,]
-const duplicate=arrNumber.filter((ele,index,arr)=>arr.indexOf(ele)!==index)
-console.log(duplicate);
+// const arrNumber=[1,2,4,2,8,8,9,]
+// const duplicate=arrNumber.filter((ele,index,arr)=>arr.indexOf(ele)!==index)
+// console.log(duplicate);
 
+ const arrNumber=[1,50,2,999,58989,555,]
+ const maxFunction=(arr)=>{
+    return arr.reduce(function(pre,cur){
+        return pre>cur?pre:cur
+    })
+ }
+ console.log(maxFunction(arrNumber));
  
