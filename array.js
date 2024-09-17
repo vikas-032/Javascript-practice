@@ -44,6 +44,14 @@
  //Array Practise
 
 
- let a=['2,3,4,7,8']
- console.log(arr);
+//  let a=['2,3,4,7,8']
+//  console.log(arr);
+
+
+//How to find duplicate element in an array?
+
+const arrNumber=[1,2,4,2,8,8,9,]
+const duplicate=arrNumber.filter((ele,index,arr)=>arr.indexOf(ele)!==index)
+console.log(duplicate);
+
  
