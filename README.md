@@ -837,7 +837,6 @@ class Person {
   }
 }
 Constructor Access Modifiers
-TypeScript supports access modifiers on constructor parameters, enabling concise and safe class initialization.
 
 Public: Parameters without a modifier are public by default.
 Private: Adding the private keyword makes them accessible within the class only.
