@@ -266,7 +266,6 @@ the Enum helps ensure the proper data type and its values.
 Pragmatic Use of Enums
 While Enums are a powerful tool for maintaining type safety, simplify associating related sets of values.
 
-However, a consideration is that an Enum value can be inferred or forced to be of any key and underlying value type.
 
 Potential Downsides of Enums
 Compilation Impact: When used in a broader context, or in data structures like arrays or maps, TypeScript generates additional code to convert Enum keys to their associated values.
