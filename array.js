@@ -54,13 +54,26 @@
 // const duplicate=arrNumber.filter((ele,index,arr)=>arr.indexOf(ele)!==index)
 // console.log(duplicate);
 
- const arrNumber=[1,50,2,999,58989,555,]
- const maxFunction=(arr)=>{
-    return arr.reduce(function(pre,cur){
-        return pre>cur?pre:cur
-    })
- }
- console.log(maxFunction(arrNumber));
+//  const arrNumber=[1,50,2,999,58989,555,]
+//  const maxFunction=(arr)=>{
+//     return arr.reduce(function(pre,cur){
+//         return pre>cur?pre:cur
+//     })
+//  }
+//  console.log(maxFunction(arrNumber));
 
+ function findSmallestElement(arr){
+    if(arr.length ===0) return null;
+    let smallest = arr[0];
+    for(let i=1; i<arr.length; i++){
+        if(arr[i]<smallest){
+            smallest=arr[i];
+        }
+    }
+    return smallest;
+}
 
+ let array=[3,1,4,5,6,7,9,66];
+ let smallestElement=findSmallestElement(array);
+ console.log("The smallest element is:", smallestElement);
  
