@@ -53,7 +53,7 @@ Code Demonstration
 Here is the TypeScript code:
 
 let num: number = 5;
-num = "this will raise a type error";
+num = "this will raise a type error"
 
 3. What are the basic types available in TypeScript?
 TypeScript provides an assortment of basic types for different kinds of data, such as numbers, strings, boolean values, arrays, tuples and more.
