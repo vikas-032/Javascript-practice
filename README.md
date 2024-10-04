@@ -3,8 +3,7 @@
 #Node.Pracrice
 ??
 ??
-??
-??
+
 ??
 //Fetching API
 1. What is TypeScript and how does it differ from JavaScript?
